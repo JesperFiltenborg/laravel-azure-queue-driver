@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Jesper Filtenborg\LaravelAzureQueueDriver\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelAzureQueueDriverCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-azure-queue-driver';
 
     public $description = 'My command';
 

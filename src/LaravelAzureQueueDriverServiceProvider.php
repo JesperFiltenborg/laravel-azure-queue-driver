@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Jesper Filtenborg\LaravelAzureQueueDriver;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Jesper Filtenborg\LaravelAzureQueueDriver\Commands\LaravelAzureQueueDriverCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LaravelAzureQueueDriverServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('laravel-azure-queue-driver')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_laravel_azure_queue_driver_table')
+            ->hasCommand(LaravelAzureQueueDriverCommand::class);
     }
 }
