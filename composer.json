@@ -2,7 +2,7 @@
     "name": "jesperfiltenborg/laravel-azure-queue-driver",
     "description": "This is my package laravel-azure-queue-driver",
     "keywords": [
-        "Jesper Filtenborg",
+        "JesperFiltenborg",
         "laravel",
         "laravel-azure-queue-driver"
     ],
@@ -10,7 +10,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Jesper Filtenborg",
+            "name": "JesperFiltenborg",
             "email": "jsf.filtenborg@gmail.com",
             "role": "Developer"
         }
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Jesper Filtenborg\\LaravelAzureQueueDriver\\": "src/",
-            "Jesper Filtenborg\\LaravelAzureQueueDriver\\Database\\Factories\\": "database/factories/"
+            "JesperFiltenborg\\LaravelAzureQueueDriver\\": "src/",
+            "JesperFiltenborg\\LaravelAzureQueueDriver\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jesper Filtenborg\\LaravelAzureQueueDriver\\Tests\\": "tests/",
+            "JesperFiltenborg\\LaravelAzureQueueDriver\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -62,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jesper Filtenborg\\LaravelAzureQueueDriver\\LaravelAzureQueueDriverServiceProvider"
+                "JesperFiltenborg\\LaravelAzureQueueDriver\\LaravelAzureQueueDriverServiceProvider"
             ],
             "aliases": {
-                "LaravelAzureQueueDriver": "Jesper Filtenborg\\LaravelAzureQueueDriver\\Facades\\LaravelAzureQueueDriver"
+                "LaravelAzureQueueDriver": "JesperFiltenborg\\LaravelAzureQueueDriver\\Facades\\LaravelAzureQueueDriver"
             }
         }
     },

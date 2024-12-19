@@ -54,8 +54,8 @@ php artisan vendor:publish --tag="laravel-azure-queue-driver-views"
 ## Usage
 
 ```php
-$laravelAzureQueueDriver = new Jesper Filtenborg\LaravelAzureQueueDriver();
-echo $laravelAzureQueueDriver->echoPhrase('Hello, Jesper Filtenborg!');
+$laravelAzureQueueDriver = new JesperFiltenborg\LaravelAzureQueueDriver();
+echo $laravelAzureQueueDriver->echoPhrase('Hello, JesperFiltenborg!');
 ```
 
 ## Testing
@@ -78,7 +78,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Jesper Filtenborg](https://github.com/JesperFiltenborg)
+- [JesperFiltenborg](https://github.com/JesperFiltenborg)
 - [All Contributors](../../contributors)
 
 ## License

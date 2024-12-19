@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) Jesper Filtenborg <jsf.filtenborg@gmail.com>
+Copyright (c) JesperFiltenborg <jsf.filtenborg@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

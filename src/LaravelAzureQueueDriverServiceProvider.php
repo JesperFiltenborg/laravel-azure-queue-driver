@@ -1,10 +1,10 @@
 <?php
 
-namespace Jesper Filtenborg\LaravelAzureQueueDriver;
+namespace JesperFiltenborg\LaravelAzureQueueDriver;
 
+use JesperFiltenborg\LaravelAzureQueueDriver\Commands\LaravelAzureQueueDriverCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Jesper Filtenborg\LaravelAzureQueueDriver\Commands\LaravelAzureQueueDriverCommand;
 
 class LaravelAzureQueueDriverServiceProvider extends PackageServiceProvider
 {

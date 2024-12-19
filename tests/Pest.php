@@ -1,5 +1,5 @@
 <?php
 
-use Jesper Filtenborg\LaravelAzureQueueDriver\Tests\TestCase;
+use JesperFiltenborg\LaravelAzureQueueDriver\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

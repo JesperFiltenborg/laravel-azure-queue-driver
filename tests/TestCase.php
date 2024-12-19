@@ -1,10 +1,10 @@
 <?php
 
-namespace Jesper Filtenborg\LaravelAzureQueueDriver\Tests;
+namespace JesperFiltenborg\LaravelAzureQueueDriver\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use JesperFiltenborg\LaravelAzureQueueDriver\LaravelAzureQueueDriverServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Jesper Filtenborg\LaravelAzureQueueDriver\LaravelAzureQueueDriverServiceProvider;
 
 class TestCase extends Orchestra
 {
@@ -13,7 +13,7 @@ class TestCase extends Orchestra
         parent::setUp();
 
         Factory::guessFactoryNamesUsing(
-            fn (string $modelName) => 'Jesper Filtenborg\\LaravelAzureQueueDriver\\Database\\Factories\\'.class_basename($modelName).'Factory'
+            fn (string $modelName) => 'JesperFiltenborg\\LaravelAzureQueueDriver\\Database\\Factories\\'.class_basename($modelName).'Factory'
         );
     }
 

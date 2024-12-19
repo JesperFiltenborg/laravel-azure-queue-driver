@@ -1,16 +1,16 @@
 <?php
 
-namespace Jesper Filtenborg\LaravelAzureQueueDriver\Facades;
+namespace JesperFiltenborg\LaravelAzureQueueDriver\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Jesper Filtenborg\LaravelAzureQueueDriver\LaravelAzureQueueDriver
+ * @see \JesperFiltenborg\LaravelAzureQueueDriver\LaravelAzureQueueDriver
  */
 class LaravelAzureQueueDriver extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \Jesper Filtenborg\LaravelAzureQueueDriver\LaravelAzureQueueDriver::class;
+        return \JesperFiltenborg\LaravelAzureQueueDriver\LaravelAzureQueueDriver::class;
     }
 }

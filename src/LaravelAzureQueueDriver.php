@@ -1,5 +1,5 @@
 <?php
 
-namespace Jesper Filtenborg\LaravelAzureQueueDriver;
+namespace JesperFiltenborg\LaravelAzureQueueDriver;
 
 class LaravelAzureQueueDriver {}

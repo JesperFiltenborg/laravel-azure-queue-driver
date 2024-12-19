@@ -1,6 +1,6 @@
 <?php
 
-namespace Jesper Filtenborg\LaravelAzureQueueDriver\Database\Factories;
+namespace JesperFiltenborg\LaravelAzureQueueDriver\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Jesper Filtenborg\LaravelAzureQueueDriver\Commands;
+namespace JesperFiltenborg\LaravelAzureQueueDriver\Commands;
 
 use Illuminate\Console\Command;
 

@@ -1,6 +1,6 @@
 <?php
 
-// config for Jesper Filtenborg/LaravelAzureQueueDriver
+// config for JesperFiltenborg/LaravelAzureQueueDriver
 return [
 
 ];
