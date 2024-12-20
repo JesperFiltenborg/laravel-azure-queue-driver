@@ -84,3 +84,32 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+
+
+
+
+
+
+
+## Config
+
+In the config queue.php file, you can set the connection to azure like this:
+```php
+'connections' => [
+    *...
+    'azure' => [
+        'driver' => 'azure',
+        'key' => env('AZURE_ACCESS_KEY'),
+        'secret' => env('AZURE_SECRET_ACCESS_KEY'),
+        'prefix' => env('AZURE_URL', 'https://your-account.servicebus.windows.net/'),
+        'queue' => env('AZURE_QUEUE', 'default'),
+        'region' => env('AZURE_DEFAULT_REGION', 'eu-west-1'),
+        'version' => env('AZURE_VERSION', 'latest'),
+        'http' => [
+            'timeout' => env('AZURE_HTTP_TIMEOUT', 60),
+            'connect_timeout' => env('AZURE_HTTP_CONNECT_TIMEOUT', 60),
+        ],
+        'after_commit' => false,
+    ],
+```
