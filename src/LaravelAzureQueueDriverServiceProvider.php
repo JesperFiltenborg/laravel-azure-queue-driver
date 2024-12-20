@@ -2,6 +2,7 @@
 
 namespace JesperFiltenborg\LaravelAzureQueueDriver;
 
+use Illuminate\Queue\QueueManager;
 use JesperFiltenborg\LaravelAzureQueueDriver\Queue\Connectors\AzureServiceBusConnector;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
@@ -27,7 +28,7 @@ class LaravelAzureQueueDriverServiceProvider extends PackageServiceProvider
         });
     }
 
-    protected function registerAzureConnector(QueeManager $manauger)
+    protected function registerAzureConnector(QueueManager $manager)
     {
         $manager->extend('azure', function () {
             return new AzureServiceBusConnector;
